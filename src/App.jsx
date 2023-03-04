@@ -1,10 +1,11 @@
-import { Main, Sidenav, Work } from "./components/index";
+import { Main, Projects, Sidenav, Work } from "./components/index";
 
 function App() {
   return (
     <div>
       <Sidenav />
       <Main />
+      <Projects />
       <Work />
     </div>
   );
