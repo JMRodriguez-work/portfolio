@@ -1,13 +1,14 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import background from '../assets/background.avif'
 
 const Main = () => {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-bottom"
-        src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=974&q=80"
+        src={background}
         alt="nature"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
