@@ -17,12 +17,12 @@ const Main = () => {
             Hey, I'm Martin Rodriguez
           </h1>
           <h2 className="flex md:text-3xl text-1xl text-gray-800 m-3">
-            I'm a
+            
             <TypeAnimation
               sequence={[
-                "Front End developer", // Types 'One'
+                "Front End Developer", // Types 'One'
                 2000, // Waits 1s
-                "computer science student", // Deletes 'One' and types 'Two'
+                "Computer Science Student", // Deletes 'One' and types 'Two'
                 2000, // Waits 2s
               ]}
               wrapper="div"
