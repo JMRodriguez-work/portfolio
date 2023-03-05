@@ -5,3 +5,4 @@ export { WorkItem } from './WorkItem';
 export { Projects } from './Projects';
 export { ProjectItem } from './ProjectItem';
 export { Contact } from './Contact';
+export { Footer } from './Footer';

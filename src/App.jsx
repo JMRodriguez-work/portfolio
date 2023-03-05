@@ -1,4 +1,4 @@
-import { Contact, Main, Projects, Sidenav, Work } from "./components/index";
+import { Contact, Footer, Main, Projects, Sidenav, Work } from "./components/index";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Projects />
       <Work />
       <Contact />
+      <Footer />
     </div>
   );
 }
