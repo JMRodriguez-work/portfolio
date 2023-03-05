@@ -7,6 +7,7 @@ const ProjectItem = ({ img, title, utils, website, repo }) => {
         src={img}
         alt={`Project preview of ${title}`}
         className="rounded-xl group-hover:opacity-10"
+        loading="lazy"
       />
       <div className="sm:hidden group-hover:block sm:absolute sm:top-[50%] sm:left-[50%] sm:translate-x-[-50%] sm:translate-y-[-50%]">
         <h3 className="text-2xl font-bold sm:text-white text-gray-800 tracking-wider text-center">
