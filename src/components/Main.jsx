@@ -44,9 +44,11 @@ const Main = () => {
                 size={20}
               />
             </a>
+            <a href="https://drive.google.com/file/d/1N9vwm9xVqd6LWCQzLoAW8Hmbb7XIOkad/view?usp=sharing" target="_blank">
             <button className="flex justify-center items-center w-100 bg-gray-800  text-gray-300 text-sm p-1 rounded-md shadow-lg hover:scale-105 ease-in duration-100">
               Resume - CV
             </button>
+            </a>
           </div>
         </div>
       </div>
