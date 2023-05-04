@@ -6,15 +6,23 @@ import rickmorty from "../assets/rickmorty.png";
 import toDo from "../assets/to-do.png";
 import weather from "../assets/weatherapp.png";
 import yardSale from "../assets/yard-sale.png";
+import paltaApp from '../assets/palta-app.png';
 
 const Projects = () => {
   return (
     <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="text-4xl font-bold text-center text-gray-800">Projects</h1>
       <p className="text-center py-8 text-stone-400">
-        Mainly using HTML, CSS, JavaScript, Tailwind and React
+        Mainly using HTML, CSS, JavaScript, Tailwind, React and NextJs
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
+        <ProjectItem
+          img={paltaApp}
+          title="Avocado App"
+          utils="NextJS-Tailwind"
+          website="https://palta-next.vercel.app/"
+          repo="https://github.com/JMRodriguez-work/palta-next"
+        />
         <ProjectItem
           img={mrRobot}
           title="Mr Robot Landing"
